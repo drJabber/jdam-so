@@ -1,4 +1,4 @@
-Build popular [jdam](https://gitlab.com/michenriksen/jdam) json fazzer to linux so library
+Build popular [jdam](https://gitlab.com/michenriksen/jdam) json fuzzer to linux so library
 
 ```bash
 go build -o jdamso.so -buildmode=c-shared
@@ -13,3 +13,5 @@ returns:
 - fuzzed json string
 
 Example of using library is in *test.py* file.
+
+Config format you can see in sources of [jdam fuzzer](https://gitlab.com/michenriksen/jdam)
